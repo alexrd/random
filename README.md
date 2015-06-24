@@ -21,6 +21,9 @@ A way to parse selection output from CHARMM to use in VMD.
 Usage example:
 
   (in CHARMM):  define neartest select ( segid TEST .around. 8 .and. segid PROA ) show end
+
   (copy this and paste to the file "neartest.dat")
+
   parseseletext.pl < neartest.dat
+
   (copy this and paste to VMD window)
