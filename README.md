@@ -27,3 +27,11 @@ Usage example:
   parseseletext.pl < neartest.dat
 
   (copy this and paste to VMD window)
+
+## putinzeros.pl
+
+Inserts padding zeros into a list of file names.
+
+Usage example:
+
+  putinzeros.pl myfiles*.pdb
