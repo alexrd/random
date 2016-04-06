@@ -22,7 +22,7 @@ my $nd = length($maxind);
 
 for $f (@files) {
     (my $ind) = $f =~ m/([0-9]+)/;  # regex line
-    if (defined $ind && $ind > 0) {
+    if (defined $ind && $ind >= 0) {
 	if (length($ind) < $nd) {
 	    my $n = $nd - length($ind);
 	    my $zstr = '0' x $n;
